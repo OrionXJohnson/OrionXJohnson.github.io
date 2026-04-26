@@ -136,6 +136,18 @@ p {
   justify-content: center;
 }
 
+.video-block {
+  margin: 1em 0;
+}
+
+.video-block video,
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Content sections */
 .section-content {
   margin: 2em 0;
